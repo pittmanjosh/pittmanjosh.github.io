@@ -19,12 +19,10 @@ function App() {
         <Container fluid>
           <Nav>
             <Navbar.Brand href="/">Josh Pittman</Navbar.Brand>
-            <Nav.Link href="https://pittmanjosh.github.io/cicdpoker">
-              Poker
+            <Nav.Link href="https://linkedin.com/in/joshpittmancode/">
+              LinkedIn
             </Nav.Link>
-            <NavLink href="https://bankify-josh.herokuapp.com/">
-              Bankify
-            </NavLink>
+            <NavLink href="https://github.com/pittmanjosh">GitHub</NavLink>
             <NavDropdown title="Projects">
               <NavDropdown.Item href="https://pittmanjosh.github.io/cicdpoker">
                 Poker
