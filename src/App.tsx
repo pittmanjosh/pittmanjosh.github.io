@@ -16,9 +16,20 @@ function App() {
             </Nav.Link>
             <NavLink href="https://github.com/pittmanjosh">GitHub</NavLink>
             <NavDropdown title="Projects">
-              <NavDropdown.Item href={pokerUrl}>Poker</NavDropdown.Item>
-              <NavDropdown.Item href="https://bankify-josh.herokuapp.com/">
+              <NavDropdown.Item href={pokerUrl} target="_blank">
+                Poker
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                href="https://bankify-josh.herokuapp.com/"
+                target="_blank"
+              >
                 Bankify
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                href="https://josh-spring-mongo.herokuapp.com/"
+                target="_blank"
+              >
+                Basic SpringBoot App
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
