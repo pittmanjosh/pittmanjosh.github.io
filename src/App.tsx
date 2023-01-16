@@ -1,18 +1,6 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {
-  Container,
-  Dropdown,
-  Nav,
-  NavDropdown,
-  NavItem,
-  NavLink,
-  Navbar,
-} from "react-bootstrap";
-import dotenv from "dotenv";
-dotenv.config();
+import { Container, Nav, NavDropdown, NavLink, Navbar } from "react-bootstrap";
 
 function App() {
   const pokerUrl = process.env.REACT_APP_POKER_URL || "/cicdpoker";
