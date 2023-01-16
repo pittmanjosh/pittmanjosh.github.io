@@ -11,8 +11,12 @@ import {
   NavLink,
   Navbar,
 } from "react-bootstrap";
+import dotenv from "dotenv";
+dotenv.config();
 
 function App() {
+  const pokerUrl = process.env.REACT_APP_POKER_URL || "/cicdpoker";
+
   return (
     <div className="App">
       <Navbar bg="dark" variant="dark">
@@ -24,9 +28,7 @@ function App() {
             </Nav.Link>
             <NavLink href="https://github.com/pittmanjosh">GitHub</NavLink>
             <NavDropdown title="Projects">
-              <NavDropdown.Item href="https://pittmanjosh.github.io/cicdpoker">
-                Poker
-              </NavDropdown.Item>
+              <NavDropdown.Item href={pokerUrl}>Poker</NavDropdown.Item>
               <NavDropdown.Item href="https://bankify-josh.herokuapp.com/">
                 Bankify
               </NavDropdown.Item>
